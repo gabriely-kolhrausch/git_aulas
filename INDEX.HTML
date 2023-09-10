@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROJETO GIT</title>
-</head>
-<body>
-    <H1>TITULO</H1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PROJETO GIT</title>
+    </head>
+    <body>
+        <section>
+            <H1>preparando o ambiente</H1>
+            <p>Agora vamos precisar criar nosso projeto, você pode abrir o VSCode e realizar todo o processo de criação de pasta por lá. Podemos criar o projeto e abrir o VSCode a partir dele, da seguinte maneira:</p>
+            <ul>
+                <li>Escolha o local aonde vai criar a pasta (Diretório) de seu projeto.</li>
+                <li>Abra a pasta criada.</li>
+                <li>Dentro da pasta, clique com o botão direito do mouse e selecione "Git Bash Here"</li>
+                <li>O terminal do Git Bash abrirá, já dentro do diretório que você selecionou. Em nosso exemplo, ele abriu o diretório "Primeiro Projeto Git M1" que criamos em nossa Área de Trabalho (Desktop).</li>
+                <li>Para finalizar, digite code . para abrir o VSCode no diretório atual.</li>
+            </ul>
+            <p>Se o processo foi feito de maneira correta, o resultado será a abertura do editor de código VSCode em nosso diretório criado.</p>
+            <p>Agora precisamos ter certeza que nosso VSCode está utilizando o Git Bash como terminal principal. Com o VSCode aberto, siga os passos:</p>
+            <ul>
+                <li>No meu superior, clique em "Terminal" e seleciona a opção "Novo terminal".</li>
+                <li>O VSCode abrirá uma tela de terminal na parte inferior. Por padrão, se tiver utilizando o Windows, ele abrirá o Power Shell, que é um terminal nativo do Windows. Precisaremos selecionar o Git Bash como terminal principal da nossa sessão para utilizar os comandos apropriados. Observe o GIF abaixo para fazer a mudança.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Utilizando o GIT na prática</h2>
+            <p>Até o momento, instalamos o Git Bash, criamos uma pasta para nosso projeto de exemplo e a abrimos com o VSCode. Vamos criar um arquivo index.html simples para exercitar o git:</p>
+            <p>Estamos pronto para inicializar um Repositório em nosso diretório de projeto. Para fazer isso, siga os seguintes passos:</p>
+            <ul>
+                <li>Abra o Git Bash pelo VSCode.</li>
+                <li>Tenha certeza que o terminal aberto está no diretório correto do seu projeto.</li>
+                <li>Digite o seguinte comando para inicializar um repositório Git no diretório do seu projeto:</li>
+
+
+            </ul>
+            <p>Entendendo os comandos executados</p>
+            <ul>
+                <li>O comando git add é usado para adicionar as alterações feitas nos arquivos do repositório Git à área de preparação (também conhecida como "staging area" ou "stage) para que possam ser incluídas no próximo commit. O comando git add pode ser usado para adicionar novos arquivos, atualizar arquivos existentes ou remover arquivos do repositório.</li>
+                <li>O comando git commit é usado para confirmar as alterações feitas nos arquivos do repositório Git que foram adicionados à área de preparação com o comando git add. O comando git commit cria um novo versionamento das alterações e adiciona uma mensagem de commit que descreve as alterações feitas. Cada commit no Git tem um ID exclusivo e uma mensagem que o descreve.</li>
+                <li>O comando git status é um comando utilizado no Git para exibir o estado atual do repositório. Ele mostra quais arquivos foram modificados, quais arquivos estão na área de preparação (ou "staging area") prontos para serem confirmados (com o comando "git commit"), e quais arquivos não foram rastreados pelo Git.</li>
+            </ul>
+            <p> Git init</p>
+            <p>Note que, em nosso terminal, agora está aparecendo uma indicação main (ou master), sinalizando que estamos na ramificação principal do nosso versionamento.</p>
+            <h3>usuário git</h3>
+            <p>Antes de entender os comandos que executamos, vamos fazer duas configurações. Como é a primeira vez que estamos utilizando o git em nossa máquina, precisamos nos identificar para a ferramenta. Utilize o código abaixo, trocando o nome "name" pelo seu nome, e o email "email@email.com" pelo seu email cadastrado na sua conta github.</p>
+            <p>git config --global user.name "name"</p>
+            <p>git config --global user.email "email@email.com"</p>
+
+            <p>teste</p>
+        </section>
+    </body>
 </html>
